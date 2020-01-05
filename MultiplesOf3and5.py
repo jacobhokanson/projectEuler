@@ -3,12 +3,8 @@
 from mytc import Test
 
 def multiplesOf3and5(number):
-    # Good luck!
-    # multiples = []
-    # for x in number:
-    #     pass
-    this = [x for x in range(number) if x % 3 == 0 or x % 5 == 0]
-    return sum(this)
+    mults = [x for x in range(number) if x % 3 == 0 or x % 5 == 0]
+    return sum(mults)
 
 testcases = {
     1000: 233168,
