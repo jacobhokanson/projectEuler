@@ -1,1 +1,1 @@
-"# projectEuler" 
+Jacob Hokanson Project Euler solutions
