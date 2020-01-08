@@ -1,6 +1,5 @@
 # Project Euler Problem 3
 from mytc import Test
-from math import floor, sqrt
 
 def Sieve(n):
     if_prime = [1 for i in range(n)]
@@ -28,6 +27,7 @@ tc = {
     3: 3,
     5: 5,
     7: 7,
+    20: 5,
     13195: 29,
     600851475143: 6857,
 }

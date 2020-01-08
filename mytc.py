@@ -12,7 +12,7 @@ def Test(cases, fn): # Dict
 
     # print("\n" + "-" * 30, "MYTC RESULTS", "-" * 30)
     for case in results:
-        print(f'{f" - {case[0]} returned {case[1]} expected {case[2]} ":.<69}', "PASS" if case[1] == case[2] else "FAIL")
+        print(f'{f" - {case[0]} = {case[1]} expected {case[2]} ":.<69}', "PASS" if case[1] == case[2] else "FAIL")
 
         # WOW learning this was a pain
         # print(" -", case[0], "returned", case[1], "expected", case[2], "--", "PASS" if case[1] == case[2] else "FAIL")
