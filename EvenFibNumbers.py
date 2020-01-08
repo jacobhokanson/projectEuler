@@ -11,11 +11,12 @@ def Fib(n):
         return 1
     return Fib(n - 1) + Fib(n - 2)
 
-testcases = {
-    10: 44,
-    18: 3382,
-    23: 60696,
-    # 43: 350704366, # This case falls into recursion Tartarus and never returns for some reason =[
-}
+if __name__ == "__main__":
+    testcases = {
+        10: 44,
+        18: 3382,
+        23: 60696,
+        # 43: 350704366, # This case falls into recursion Tartarus and never returns for some reason =[
+    }
 
-Test(testcases, EvenFibNumbers)
+    Test(testcases, EvenFibNumbers)

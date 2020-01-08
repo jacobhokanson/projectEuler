@@ -22,11 +22,14 @@ def testPalindrome(n):
     n = str(n)
     return n[:len(n)//2] == n[-(len(n)//2):][::-1]
 
-tc = {
-    1: 9,
-    2: 9009,
-    3: 906609,
-}
+if __name__ == "__main__":
+    tc = {
+        1: 9,
+        2: 9009,
+        3: 906609,
+    }
+
+Test(tc, PalindromeProduct)
 
 # pa = {
 #     "lol": True,
@@ -39,5 +42,3 @@ tc = {
 # }
 
 # Test(pa, testPalindrome)
-
-Test(tc, PalindromeProduct)

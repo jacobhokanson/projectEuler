@@ -22,17 +22,18 @@ def LargestPrimeFactor(num) -> int:
             gpf = prime
     return gpf
 
-tc = {
-    2: 2,
-    3: 3,
-    5: 5,
-    7: 7,
-    20: 5,
-    13195: 29,
-    600851475143: 6857,
-}
+if __name__ == "__main__":
+    tc = {
+        2: 2,
+        3: 3,
+        5: 5,
+        7: 7,
+        20: 5,
+        13195: 29,
+        600851475143: 6857,
+    }
 
-Test(tc, LargestPrimeFactor)
+    Test(tc, LargestPrimeFactor)
 
 
 

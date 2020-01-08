@@ -17,16 +17,17 @@ def DivisibleByFactors(n: int, factors: list) -> bool:
         if n % p == 0:
             return True
     return False
+    
+if __name__ == "__main__":
+    tc = {
+        6: 13,
+        10: 29,
+        100: 541,
+        1000: 7919,
+        10001: 104743,
+    }
 
-tc = {
-    6: 13,
-    10: 29,
-    100: 541,
-    1000: 7919,
-    10001: 104743,
-}
-
-Test(tc, NthPrime)
+    Test(tc, NthPrime)
 
 # def NthPrime(n):
 #     primes = []
